@@ -31,12 +31,13 @@ public class GradeCalculator {
     //input final
     System.out.print("Enter Final Exam Score:      ");
     //creating the variable for final
-    double finaltest = input.nextDouble();
+    double finalexam = input.nextDouble();
 
     //identifying the vatiable to collect the sum of all
-    double totalscore = homework + codelab + midterm1 + midterm2 + finaltest;
+    double totalscore = homework + codelab + midterm1 + midterm2 + finalexam;
     //going to outprint the final result
     System.out.println(" The toal score is " + totalscore);
 
     }
 }
+
